@@ -5,10 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learn enough JavaScript</title>
   <script>
-    function dayName(date) {
-      const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-      return daysOfTheWeek[date.getDay()];
-    }
     let now = new Date();
     let dayName = daysOfTheWeek[now.getDay()];
     alert(`Hello World! Happy ${dayName(now)}!`);
