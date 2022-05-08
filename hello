@@ -1,0 +1,3 @@
+#!/home/pingubib/.nvm/versions/node/v16.15.0/bin/node
+
+console.log("Hello, world!");
